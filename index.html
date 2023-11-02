@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>문제해답(2단레이아웃)</title>
+    <style>
+        body {
+            background: #222;
+        }
+        
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        #container {
+            width: 900px;
+            margin: 0 auto;
+            height: 100%;
+            background: white;
+        }
+
+        #left {
+            width: 300px;
+            height: 100%;
+            background: #ddd;
+            float: left;
+        }
+
+        img {
+            width: 200px;
+            height: 228px;
+            margin: 3px;
+            margin-top: 20px;
+        }
+
+        .innerleft {
+            margin: 0 50px 0 50px;
+            width: 200px;
+            padding-top: 20px;
+        }
+
+        h2 {
+            font-variant: small-caps;
+        }
+
+        .cls001 {
+            font-size: 14px;
+            color: #333;
+            line-height: 1.7;
+        }
+
+        .cls002 {
+            font-size: 14px;
+            line-height: 2.8;
+            color: #333;
+            margin-top: 120px;
+        }
+
+        #right {
+            width: 600px;
+            height: 100%;
+            float: right;
+            padding: 80px;
+            box-sizing: border-box;
+        }
+        
+        h2.cls003 {
+            font-variant: normal;
+            margin: 0;
+        }
+
+        .cls004 {
+            font-size: 15px;
+            line-height: 2.0;
+            margin-left: 20px;
+            margin-bottom: 30px;
+        }
+
+        hr {
+            border: 1px dotted gray;
+            margin-left: -50px;
+            width: 450px;
+            margin-bottom: 40px;
+        }
+
+        .cls005 {
+            margin-top: 40px;
+        }
+
+        li {
+            line-height: 2.0;
+            font-size: 14px;
+        }
+
+        .cls006 {
+            margin-left: -40px;
+            margin-bottom: 40px;
+        }
+
+        .cls007 {
+            margin-bottom: 40px;
+        }
+
+        table {
+            width: 350px;
+            height: 90px;
+            border-collapse: collapse;
+            border: 1px solid #333;
+            margin-left: 10px;
+            margin-bottom: 40px;
+            margin-top: -30px;
+        }
+
+        th, td {
+            border:  1px solid black;
+            height: 30px;
+            font-size: 14px;
+        }
+
+        th {
+            background: rgb(255, 205, 214);
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="left">
+            <div class="innerleft">
+                <img src="3.jpg" alt="강아지 이미지">
+                <h2>Lee eun ji</h2>
+                <p class="cls001">오늘은 남은 인생이 시작되는 <br>
+                    첫째날
+                </p>
+                
+                <p class="cls002">
+                    Jeju, Korea<br>
+
+                    funcom@gmail.com
+                </p>
+                <h3>SNS</h3>
+            </div>
+        </div>
+        <div id="right">
+            <h2 class="cls003">Who am I ?!</h2>
+            <p class="cls004">
+                <mark>프런트엔드 웹 기술</mark>에 관심이 많습니다<br>
+                현재 제주의 한 시골 마을에서 코딩 중입니다.
+            </p>
+            <hr>
+            <h2 class="cls005">Experience</h2>
+            <ul class="cls006">
+                <li>
+                    프론트엔드 개발
+                    <ul>
+                        <li>업무 내용 업무 내용</li>
+                        <li>업무 내용 업무</li>
+                        <li>업무 내용 업무 내용</li>
+                    </ul>
+                </li>
+                <li>
+                    웹디자인
+                    <ul>
+                        <li>업무 내용</li>
+                        <li>업무 내용 내용</li>
+                    </ul>
+                </li>
+            </ul>
+            <hr>
+            <h2 class="cls007">Skills</h2>
+            <hr>
+            <h2 class="cls007">Education</h2>
+            <table>
+                <caption>학력사항</caption>
+                <tr>
+                    <th>출신학교</th>
+                    <th>전공</th>
+                    <th>기간</th>
+                    <th>구분</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <hr>
+        </div>
+    </div>
+</body>
+</html>
